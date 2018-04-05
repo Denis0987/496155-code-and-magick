@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
-* Студент: [Неопознанный Сурикат](https://up.htmlacademy.ru/javascript/13/user/496155).
-* Наставник: `Неизвестно`.
+* Студент: [Роман Руренко](https://up.htmlacademy.ru/javascript/13/user/603391).
+* Наставник: `Никита Ткачук`.
 
 ---
 
@@ -48,5 +48,5 @@ git clone SSH-адрес_вашего_форка
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Профессиональный JavaScript](https://htmlacademy.ru/intensive/javascript)», уровень 1 от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.org/htmlacademy-javascript/496155-code-and-magick.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-javascript/496155-code-and-magick
+[travis-image]: https://travis-ci.org/htmlacademy-javascript/603391-code-and-magick.svg?branch=master
+[travis-url]: https://travis-ci.org/htmlacademy-javascript/603391-code-and-magick

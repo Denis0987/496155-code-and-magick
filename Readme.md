@@ -1,6 +1,6 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
-* Студент: [Роман Руренко](https://up.htmlacademy.ru/javascript/13/user/603391).
+* Студент: [Неопознаный сурикат](https://up.htmlacademy.ru/javascript/13/user/603391).
 * Наставник: `Никита Ткачук`.
 
 ---

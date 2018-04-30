@@ -63,7 +63,7 @@
   <div class="demo"></div>
 
   <div class="setup-open">
-    <img src="./img/user-1.jpg" class="setup-open-icon">
+    <img src="./img/user-1.jpg" class="setup-open-icon" tabindex="0">
   </div>
 </header>
 
@@ -71,7 +71,9 @@
   <form class="setup-wizard-form"
         method="post"
         enctype="multipart/form-data"
-        autocomplete="off">
+        autocomplete="off"
+        action="https://js.dump.academy/code-and-magick"
+        >
 
     <div class="setup-title">
       <div class="setup-user">
@@ -81,12 +83,12 @@
         </div>
         <label>
           <input type="text" name="username"
-                 maxlength="25" required
+                 minlength="2" maxlength="25" required
                  class="setup-user-name" value="Синий Пендальф"/>
         </label>
       </div>
 
-      <span class="setup-close">&times;</span>
+      <span class="setup-close" tabindex="0">&times;</span>
     </div>
 
 
@@ -181,25 +183,31 @@
   </div>
 </template>
 
-<!-- скрипт с объявляем переменных и функций поведения игры -->
 <script>
   var fireballSize = 22;
-  var getFireballSpeed = function (left) {
+  var getFireballSpeed = function(left) {
     return left ? 5 : 2;
   };
+
   var wizardSpeed = 3;
   var wizardWidth = 70;
-  var getWizardHeight = function () {
+  var getWizardHeight = function() {
     return 1.337 * wizardWidth;
   };
 
-  var getWizardX = function (width) {
-    return width / 2 - wizardWidth / 2;
+  function getWizardX(width) {
+    return parseInt(width / 2);
   };
-  var getWizardY = function (height) {
-    return height / 3 - getWizardHeight() ;
+
+  function getWizardY(height) {
+    return parseInt(height / 3);
   };
 </script>
+<script src="js/utils.js"></script>
+<script src="js/backend.js"></script>
+<script src="js/setup-window.js"></script>
+<script src="js/generate-wizards.js"></script>
+<script src="js/draggable.js"></script>
 <script src="js/stat.js"></script>
 <script src="js/game.js"></script>
 
